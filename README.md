@@ -9,3 +9,36 @@ For more information, please refer to the following: <br>
 
 <li>De Florio, Mario, Enrico Schiassi, Barry D. Ganapol, and Roberto Furfaro. "<a href="https://doi.org/10.1007/s00033-022-01767-z">Physics-Informed Neural Networks for rarefied-gas dynamics: Poiseuille flow in the BGK approximation.</a>." Zeitschrift für angewandte Mathematik und Physik 73, no. 3 (2022): 1-18.</li>
 </ul>
+
+
+## Citation
+
+    @article{de2021physics,
+      title={Physics-informed neural networks for rarefied-gas dynamics: Thermal creep flow in the Bhatnagar--Gross--Krook approximation},
+      author={De Florio, Mario and Schiassi, Enrico and Ganapol, Barry D and Furfaro, Roberto},
+      journal={Physics of Fluids},
+      volume={33},
+      number={4},
+      pages={047110},
+      year={2021},
+      publisher={AIP Publishing LLC}
+    }
+    
+    @article{de2022physics,
+      title={Physics-Informed Neural Networks for rarefied-gas dynamics: Poiseuille flow in the BGK approximation},
+      author={De Florio, Mario and Schiassi, Enrico and Ganapol, Barry D and Furfaro, Roberto},
+      journal={Zeitschrift f{\"u}r angewandte Mathematik und Physik},
+      volume={73},
+      number={3},
+      pages={1--18},
+      year={2022},
+      publisher={Springer}
+    }
+    
+    
+    
+    
+    
+    
+    
+    
