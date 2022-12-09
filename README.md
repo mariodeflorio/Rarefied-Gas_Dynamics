@@ -4,7 +4,8 @@ The Boltzmann equation with the Bhatnagar-Gross-Krook (BGK) collision model has 
 For more information, please refer to the following: <br>
 (https://github.com/mariodeflorio/Rarefied-Gas_Dynamics/)
 
-De Florio, Mario, Enrico Schiassi, Barry D. Ganapol, and Roberto Furfaro. "<a href="https://doi.org/10.1063/5.0046181">Physics-informed neural networks for rarefied-gas dynamics: Thermal creep flow in the Bhatnagar–Gross–Krook approximation</a>." Physics of Fluids 33, no. 4 (2021): 047110.
+<ul>
+<li>De Florio, Mario, Enrico Schiassi, Barry D. Ganapol, and Roberto Furfaro. "<a href="https://doi.org/10.1063/5.0046181">Physics-informed neural networks for rarefied-gas dynamics: Thermal creep flow in the Bhatnagar–Gross–Krook approximation</a>." Physics of Fluids 33, no. 4 (2021): 047110.</li>
 
-De Florio, Mario, Enrico Schiassi, Barry D. Ganapol, and Roberto Furfaro. "<a href="https://doi.org/10.1007/s00033-022-01767-z">Physics-Informed Neural Networks for rarefied-gas dynamics: Poiseuille flow in the BGK approximation.</a>." Zeitschrift für angewandte Mathematik und Physik 73, no. 3 (2022): 1-18.
-
+<li>De Florio, Mario, Enrico Schiassi, Barry D. Ganapol, and Roberto Furfaro. "<a href="https://doi.org/10.1007/s00033-022-01767-z">Physics-Informed Neural Networks for rarefied-gas dynamics: Poiseuille flow in the BGK approximation.</a>." Zeitschrift für angewandte Mathematik und Physik 73, no. 3 (2022): 1-18.</li>
+</ul>
