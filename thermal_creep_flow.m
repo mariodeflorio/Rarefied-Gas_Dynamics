@@ -173,6 +173,46 @@ plot(tau,q,'LineWidth',2);
 title('Macroscopic velocity profile in half-channel')
 
 
+%% Loss
+Lossp = zeros(M,N);
+Lossn = zeros(M,N);
+
+for i=1:N
+    
+    sum_loss_k = 0;
+    
+    for k = 1:N
+        sum_loss_k = sum_loss_k + w(k)*psi(k)*(Y_p(:,k) + Y_n(:,k));
+    end
+    
+    Lossp(:,i) =  -c*log(mu(i))*YD_p(:,i) + Y_p(:,i) - sum_loss_k;
+    Lossn(:,i) =  c*log(mu(i))*YD_n(:,i) + Y_n(:,i) - sum_loss_k;
+    
+ end
+
+
+
+
+figure(2)
+hold on
+grid on
+xlabel('\tau')
+ylabel('Loss')
+set(gca, 'YScale','log')
+plot(tau,mean(abs(Lossp),2),'*','Color','r');
+title(sprintf('Loss function - positive flux')) ;
+
+%
+figure(3)
+hold on
+grid on
+xlabel('\tau')
+ylabel('Loss')
+set(gca,'YScale','log')
+plot(tau,mean(abs(Lossn),2),'*');
+title(sprintf('Loss function - negative flux')) ;
+
+
 %% Flow rate
 
 MM = 1e4;
@@ -221,7 +261,9 @@ for i = 1:N
     Y_0 = Y_0 + w(i)*psi(i)*(Y_p(:,i) + Y_n(:,i)) ;
 end
 
-% Flow rate
+
+
+%% Flow rate
 
 Q = -(1/(a^2)) * trapz(tau_int,Y_0);
 
